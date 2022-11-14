@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
+}
+
+main {
+    margin: 50px auto;
+    width: 1000px;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+#reliable, #powered, #par {
+    text-align: center;
+}
+
+#reliable {
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+}
+
+#powered {
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 20px;
+}
+
+header p {
+    color: hsl(229, 6%, 66%);
+    font-size: 13px;
+    width: 450px;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#supervisor, #team, #karma, #calculator {
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px  hsl(229, 6%, 66%);
+}
+
+#supervisor {
+    margin-bottom: 20px;
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+#team {
+    margin-bottom: 20px;
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+#karma {
+    margin-bottom: 20px;
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+#calculator {
+    margin-bottom: 20px;
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+section h4 {
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 10px;
+}
+
+section p {
+    color: hsl(229, 6%, 66%);
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.img img {
+    width: 50px;
+}
+
+@media(max-width: 768px) {
+    main {
+        margin: 60px 30px;
+        width: 90%;
+    }
+
+    header {
+        margin-bottom: 70px;
+    }
+
+    #reliable {
+        font-weight: 400;
+    }
+
+    header p {
+        color: hsl(229, 6%, 66%);
+        font-size: 16px;
+        width: 90%;
+        margin: 0 ;
+    }
+
+    section {
+        display: block;
+    }
+
+    #supervisor, #team, #karma, #calculator {
+        width: 90%;
+        border-radius: 7px;
+    }
+
+    section h4 {
+        font-size: 23px;
+    }
+
+    section p {
+        font-size: 15px;
+        margin-bottom: 35px;
+    }
+    
+    .img img {
+    width: 60px;
+}
+}
